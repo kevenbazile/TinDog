@@ -1,0 +1,168 @@
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+.container-fluid {
+    padding: 3% 15%;
+}
+h1{
+    font-family: 'Montserrat-black', sans-serif;
+    font-weight:bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+
+h2 {
+    font-family: "Montserrat-bold";
+    font-size: 3rem;
+    line-height: 1;
+}
+
+h3 {
+    font-weight: bold;
+    font-family: 'Montserrat-bold';
+    font-size: 1.5rem;
+}
+
+.container-fluid {
+    padding: 3% 15% 9%;
+}
+
+body {
+    font-family: "Montserrat";
+}
+/*  this .navbar aligns the logo with the text underneath */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family:"ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-family:"  Montserrat-light";
+    font-size: 1.5rem;
+}
+
+/* button customization to space out the names from the body text above */
+
+.downoad-button{
+    margin: 5% 3% 5% 0;
+}
+/* title image section  */
+.title-image {
+    width: 60%;
+    transform: rotate(20deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* Feature tab to make sure that the stuff are aligned */
+#features {
+    margin:0;
+    text-align:center;
+    background-color: #fff;
+    position: relative;
+}
+/* feature box editing the text */
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+
+}
+
+
+
+
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color:#ff4c68;
+}
+
+/* tesimonials */
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px
+}
+
+.caurousel-item{
+    height: 500px;
+}
+
+.carousel-control-next {
+  background: transparent;
+  border: none
+}
+
+.carousel-control-prev {
+    background: transparent;
+    border: none
+  }
+
+  .card-body{
+    font-weight: bold;
+    font-family: 'Montserrat-bold';
+    font-size: 1.5rem;
+  }
+ 
+/* pricing section */
+
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+@media (max-width:1028px) {
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+}
+.footer {
+    background-color: #ff4c68;
+    color: #fff;
+    font-family:"  Montserrat-light";
+    font-weight: bold;
+    padding: 3% 2%;
+    text-align: center;
+}
+
+#footer{
+    padding: 5% 10%;
+    text-align: center;
+}
+
+
+.social-icon{
+    margin: 20px 10px;  
+}
